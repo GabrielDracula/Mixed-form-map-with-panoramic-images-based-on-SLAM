@@ -1,0 +1,62 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0c\x00G\x00P\x00c\x00o\x00d\x00e)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/tangdi/MyFiles/GraduationProject/GPcode/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=mixmap
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=./config/para6_2.yaml
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x03\x00\x00\x00\x0c\x00G\x00P\x00c\x00o\x00d\x00e\x00\x00\x00\x0e\x00m\x00a\x00i\x00n\x00s\x00r\x00c\x00\x00\x00\x0c\x00m\x00i\x00x\x00m\x00a\x00p)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/tangdi/MyFiles/GraduationProject/GPcode/bin/mixmap
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=GPcode,mainsrc,mixmap
+Use External Terminal=false
+Working Directory=file:///home/tangdi/MyFiles/GraduationProject/GPcode
+isExecutable=true
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=test
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=./config/12para.yaml
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x03\x00\x00\x00\x0c\x00G\x00P\x00c\x00o\x00d\x00e\x00\x00\x00\x0e\x00m\x00a\x00i\x00n\x00s\x00r\x00c\x00\x00\x00\x08\x00t\x00e\x00s\x00t)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/tangdi/MyFiles/GraduationProject/GPcode/bin/test
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=GPcode,mainsrc,test
+Use External Terminal=false
+Working Directory=file:///home/tangdi/MyFiles/GraduationProject/GPcode
+isExecutable=true
+
+[MakeBuilder]
+Number Of Jobs=3

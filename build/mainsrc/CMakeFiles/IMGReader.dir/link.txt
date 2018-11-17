@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIMGReader.a  CMakeFiles/IMGReader.dir/KITTIReader.cpp.o CMakeFiles/IMGReader.dir/ladybugimg.cpp.o
+/usr/bin/ranlib libIMGReader.a

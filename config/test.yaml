@@ -1,0 +1,67 @@
+%YAML:1.0
+dataset_dir: ./
+camera_number: 1
+width: 830
+height: 1010
+2Ddistance: 20
+stereotype: 1 #1 is vertical
+scale: 1
+           
+#camera0.fx: 1329.63874873
+#camera0.fy: 1321.73595135
+#camera0.cx: 420.67807452
+#camera0.cy: 511.37352028
+#camera0.xi: 1.41172787
+#camera0.k1: -0.59000693
+#camera0.k2: 0.71050229
+#camera0.r1: -0.00607741
+#camera0.r2: -0.00011147
+camera0.fx: 1327.18006134
+camera0.fy: 1321.75205358
+camera0.cx: 421.90146677
+camera0.cy: 510.79016918
+camera0.xi: 1.7112602
+camera0.k1: -0.0598779
+camera0.k2: 0.30603603
+camera0.r1: 0.00009371
+camera0.r2: 0.00086755
+camera0.q1: 0
+camera0.q2: 0
+camera0.q3: 0
+camera0.q4: 1
+camera0.t1: 0
+camera0.t2: 0
+camera0.t3: 0
+
+camera1.fx: 1324.67960366
+camera1.fy: 1316.84779122
+camera1.cx: 407.72258997
+camera1.cy: 504.98068759
+camera1.xi: 1.4185586
+camera1.k1: -0.59384559
+camera1.k2: 0.76002782
+camera1.r1: -0.00586766
+camera1.r2: 0.00626955
+camera1.q1: -0.00480631
+camera1.q2: -0.00325143
+camera1.q3: 0.00054949
+camera1.q4: 0.99998301
+camera1.t1: 0.00365255
+camera1.t2: -0.30154106
+camera1.t3: 0.00063329
+
+#VO
+num_of_features: 2000
+scale_factor: 1.2
+level_pyramid: 8
+match_ratio: 2.0
+max_num_lost: 10
+min_inliers: 10
+keyframe_rotation: 0.1
+keyframe_translation: 5
+map_point_erase_ratio: 0.1
+
+
+
+
+

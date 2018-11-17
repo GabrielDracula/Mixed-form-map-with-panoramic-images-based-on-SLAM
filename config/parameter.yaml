@@ -1,0 +1,98 @@
+%YAML:1.0
+dataset_dir: ./data/
+camera_number: 1
+width: 830
+height: 1010
+2Ddistance: 20
+stereotype: 1 #1 is vertical
+
+camera0.fx: 1296.69070713
+camera0.fy: 1292.37360649
+camera0.cx: 409.8259522
+camera0.cy: 501.75482286
+camera0.xi: 1.64639387
+camera0.k1: -0.06922166
+camera0.k2: 0.20588086
+camera0.r1: -0.00033702
+camera0.r2: 0.00373505
+camera0.q1: 0
+camera0.q2: 0
+camera0.q3: 0
+camera0.q4: 1
+camera0.t1: 0
+camera0.t2: 0
+camera0.t3: 0
+
+camera1.fx: 1302.43796053
+camera1.fy: 1294.78500237
+camera1.cx: 424.56583721
+camera1.cy: 504.2111682
+camera1.xi: 1.64362651
+camera1.k1: -0.07112963
+camera1.k2: 0.23470593
+camera1.r1: -0.00134986
+camera1.r2: -0.00118329
+camera1.q1: 0.00007044
+camera1.q2: 0.58935784
+camera1.q3: 0.00104772
+camera1.q4: 0.80787142
+camera1.t1: -0.01297785
+camera1.t2: -0.00000329
+camera1.t3: -0.00963119
+
+camera2.fx: 1298.27731179
+camera2.fy: 1292.36709655
+camera2.cx: 415.89397857
+camera2.cy: 508.45974996
+camera2.xi: 1.64686987
+camera2.k1: -0.05082237
+camera2.k2: 0.20614511
+camera2.r1: -0.00257293
+camera2.r2: -0.00036311
+camera2.q1: -0.00062381
+camera2.q2: 0.5860727
+camera2.q3: -0.0002271
+camera2.q4: 0.8102582
+camera2.t1: -0.01305034
+camera2.t2: -0.00004001
+camera2.t3: -0.00959525
+
+camera3.fx: 1323.57850873
+camera3.fy: 1319.04658327
+camera3.cx: 419.27402314
+camera3.cy: 501.89818736
+camera3.xi: 1.7060566
+camera3.k1: -0.01196184
+camera3.k2: 0.14188819
+camera3.r1: -0.0018164
+camera3.r2: -0.00046568
+camera3.q1: -0.00028046
+camera3.q2: 0.59010399
+camera3.q3: 0.00064718
+camera3.q4: 0.80732694
+camera3.t1: -0.01307665
+camera3.t2: 0.00000966
+camera3.t3: -0.00976931
+
+camera4.fx: 1330.75902109
+camera4.fy: 1327.23583503
+camera4.cx: 411.3567694
+camera4.cy: 526.70736069
+camera4.xi: 1.73228378
+camera4.k1: -0.03809738
+camera4.k2: 0.28777972
+camera4.r1: -0.00225475
+camera4.r2: -0.0002112
+camera4.q1: -0.00057342
+camera4.q2: 0.58682161
+camera4.q3: -0.00265433
+camera4.q4: 0.80971169
+camera4.t1: -0.01315123
+camera4.t2: -0.00009941
+camera4.t3: -0.00958112
+
+
+
+
+
+

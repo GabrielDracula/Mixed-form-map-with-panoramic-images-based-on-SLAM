@@ -1,0 +1,58 @@
+%YAML:1.0
+dataset_dir: ./data/05/
+datanum: 1000
+camera_number: 1
+width: 1226
+height: 370
+2Ddistance: 40
+stereotype: 0 #0 is horizontal
+
+camera0.cx: 601.8873
+camera0.cy: 183.1104
+camera0.fx: 707.0912
+camera0.fy: 707.0912
+camera0.xi: 0
+camera0.k1: 0
+camera0.k2: 0
+camera0.r1: 0
+camera0.r2: 0
+camera0.q1: 0
+camera0.q2: 0
+camera0.q3: 0
+camera0.q4: 1
+camera0.t1: 0
+camera0.t2: 0
+camera0.t3: 0
+
+camera1.cx: 601.8873
+camera1.cy: 183.1104
+camera1.fx: 707.0912
+camera1.fy: 707.0912
+camera1.xi: 0
+camera1.k1: 0
+camera1.k2: 0
+camera1.r1: 0
+camera1.r2: 0
+camera1.q1: 0
+camera1.q2: 0
+camera1.q3: 0
+camera1.q4: 1
+camera1.t1: -0.537904488
+camera1.t2: 0
+camera1.t3: 0
+
+scale: 1
+
+#VO
+num_of_features: 2000
+scale_factor: 1.2
+level_pyramid: 8
+match_ratio: 2.0
+max_num_lost: 10
+min_inliers: 10
+keyframe_rotation: 0.1
+keyframe_translation: 5
+map_point_erase_ratio: 0.1
+
+#Dense Mapper
+voxel_grid: 0.02
